@@ -1,4 +1,4 @@
-# assist_id_application 🚀
+# assist.id Application 🚀
 
 (Tambahkan deskripsi singkat tentang fungsi dan tujuan aplikasi Anda di sini. Jelaskan apa masalah yang dipecahkan oleh aplikasi ini dan untuk siapa aplikasi ini dibuat.)
 
