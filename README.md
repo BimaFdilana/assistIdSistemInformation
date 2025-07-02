@@ -2,17 +2,6 @@
 
 (Tambahkan deskripsi singkat tentang fungsi dan tujuan aplikasi Anda di sini. Jelaskan apa masalah yang dipecahkan oleh aplikasi ini dan untuk siapa aplikasi ini dibuat.)
 
-## 🛠️ Persyaratan Sistem
-
-Pastikan Anda telah menginstal perangkat lunak berikut sebelum memulai:
-
-* **Git:** Untuk mengkloning repositori.
-* **Flutter SDK:** [Instalasi Flutter](https://flutter.dev/docs/get-started/install)
-* **IDE:** Android Studio atau Visual Studio Code (dengan ekstensi Flutter dan Dart).
-* **Emulator Android/iOS atau perangkat fisik.**
-
----
-
 ## ⚙️ Instalasi dan Konfigurasi
 
 Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan pengembangan lokal Anda.
