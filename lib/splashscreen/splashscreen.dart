@@ -1,7 +1,7 @@
 // ignore_for_file: use_build_context_synchronously
 
 
-import 'package:assist_id_application/home/home.dart';
+import 'package:assist_id_application/home/nav_bar.dart';
 import 'package:flutter/material.dart';
 
 
@@ -19,7 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Future.delayed(const Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const HomePage()),
+        MaterialPageRoute(builder: (context) => const MainScreen()),
       );
     });
   }

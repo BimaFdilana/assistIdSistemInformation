@@ -43,15 +43,11 @@ class ProductServicesScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: primaryColor,
       appBar: AppBar(
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back, color: Colors.white),
-          onPressed: () => Navigator.of(context).pop(),
-        ),
         title: const Text(
           'Layanan Produk',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
-        centerTitle: false,
+        centerTitle: true,
         backgroundColor: primaryColor,
         elevation: 0,
       ),
@@ -66,8 +62,6 @@ class ProductServicesScreen extends StatelessWidget {
   }
 }
 
-// Widget kustom untuk setiap kartu produk
-// Widget kustom untuk setiap kartu produk
 class _ProductCard extends StatelessWidget {
   final Product product;
 
