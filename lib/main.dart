@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'splashscreen/splashscreen.dart';
+
 void main() {
   runApp(const MainApp());
 }
@@ -9,12 +11,11 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('aplikasi Assist.id New on Going!!'),
-        ),
-      ),
+    return MaterialApp(
+      title: 'Assist.id',
+      theme: ThemeData(primarySwatch: Colors.blue, fontFamily: 'Roboto'),
+      home: const SplashScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

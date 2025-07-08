@@ -17,3 +17,9 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: SakkalMajalla
+      fonts:
+        - asset: lib/assets/fonts/Sakkal Majalla Regular.ttf
+  assets:
+    - assets/imgs/
