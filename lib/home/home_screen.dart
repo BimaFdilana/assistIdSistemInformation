@@ -25,6 +25,7 @@ class _HomePageState extends State<HomePage> {
             _buildTechnologySection(),
             _buildSystemFitSection(),
             _buildMigrationCard(secondaryColor),
+            const SizedBox(height: 100), 
           ],
         ),
       ),
@@ -456,12 +457,21 @@ class _HomePageState extends State<HomePage> {
                     ),
                     const SizedBox(height: 10),
                     Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 10,
+                        vertical: 5,
+                      ),
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(4),
                       ),
-                      child: const Text('Hubungi Kami', style: TextStyle(fontSize: 8, fontWeight: FontWeight.bold)),
+                      child: const Text(
+                        'Hubungi Kami',
+                        style: TextStyle(
+                          fontSize: 8,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                     ),
                   ],
                 ),

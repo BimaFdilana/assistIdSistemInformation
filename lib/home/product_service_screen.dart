@@ -34,6 +34,16 @@ class ProductServicesScreen extends StatelessWidget {
       imagePath: 'assets/imgs/layanan_image_4.png',
       color: const Color(0xFFAA80FF),
     ),
+    Product(
+      name: 'Schedule',
+      imagePath: 'assets/imgs/layanan_image_5.png',
+      color: const Color(0xFF6cb3d9),
+    ),
+    Product(
+      name: 'Pharma',
+      imagePath: 'assets/imgs/layanan_image_6.png',
+      color: const Color(0xFF74c8b5),
+    ),
   ];
 
   final Color primaryColor = const Color(0xFF5A5A9E);
@@ -52,7 +62,7 @@ class ProductServicesScreen extends StatelessWidget {
         elevation: 0,
       ),
       body: ListView.builder(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 100.0),
         itemCount: products.length,
         itemBuilder: (context, index) {
           return _ProductCard(product: products[index]);
