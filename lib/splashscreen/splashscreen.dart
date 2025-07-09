@@ -1,9 +1,7 @@
 // ignore_for_file: use_build_context_synchronously
 
-
-import 'package:assist_id_application/home/nav_bar.dart';
+import 'package:assist_id_application/onboarding/onboarding.dart';
 import 'package:flutter/material.dart';
-
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -19,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Future.delayed(const Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const MainScreen()),
+        MaterialPageRoute(builder: (context) => const OnboardingScreen()),
       );
     });
   }
@@ -32,32 +30,12 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(
-              width: 80,
-              height: 80,
-              decoration: BoxDecoration(
-                color: const Color(0xFF4A90E2),
-                borderRadius: BorderRadius.circular(12),
+            Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Image.asset(
+                'assets/imgs/logo_Splahscreen.jpg',
+                height: 70,
               ),
-              child: const Icon(
-                Icons.medical_services,
-                color: Colors.white,
-                size: 40,
-              ),
-            ),
-            const SizedBox(height: 16),
-            const Text(
-              'Assist.id',
-              style: TextStyle(
-                fontSize: 32,
-                fontWeight: FontWeight.bold,
-                color: Color(0xFF4A90E2),
-              ),
-            ),
-            const SizedBox(height: 8),
-            const Text(
-              'Sistem Informasi',
-              style: TextStyle(fontSize: 16, color: Colors.black87),
             ),
           ],
         ),

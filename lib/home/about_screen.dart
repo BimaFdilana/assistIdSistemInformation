@@ -1,3 +1,4 @@
+import 'package:assist_id_application/service/url_launcher_service.dart';
 import 'package:flutter/material.dart';
 
 class AboutScreen extends StatefulWidget {
@@ -17,7 +18,7 @@ class _AboutScreenState extends State<AboutScreen> {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
-        
+
         title: const Text(
           'Tentang Assist.id',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
@@ -95,7 +96,9 @@ class _AboutScreenState extends State<AboutScreen> {
 
             // --- Tombol Daftar Sekarang ---
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                UrlLauncherService.openWhatsApp(context: context);
+              },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.white,
                 foregroundColor: primaryColor,
