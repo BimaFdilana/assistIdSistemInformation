@@ -11,7 +11,7 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan pengemb
     Buka terminal atau command prompt Anda dan jalankan perintah berikut. Jangan lupa ganti `[URL_GIT_ANDA]` dengan URL repositori Git Anda.
 
     ```sh
-    git clone [URL_GIT_ANDA]/assist_id_application.git
+    git clone https://github.com/BimaFdilana/flutter-assistid.git
     ```
 
 2.  **Masuk ke Direktori Proyek**
