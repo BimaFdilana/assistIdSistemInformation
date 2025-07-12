@@ -4,7 +4,7 @@
 
 # Download Apk.installer
 <p align="center">
-  <a href="https://github.com/BimaFdilana/Kedai-Indonesia-IMAGI/releases">
+  <a href="https://github.com/BimaFdilana/flutter-assistid/releases">
     <img src="https://img.shields.io/badge/Unduh_APK_Terbaru-4CAF50?style=for-the-badge&logo=android&logoColor=white" alt="Unduh APK Terbaru">
   </a>
 </p>
