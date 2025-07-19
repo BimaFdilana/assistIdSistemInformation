@@ -48,17 +48,6 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan pengemb
 
 ---
 
-## ✨ Fitur Aplikasi (Contoh)
-
-Anda bisa menambahkan daftar fitur utama aplikasi di sini.
-
-* ✅ Fitur Autentikasi Pengguna
-* ✅ Tampilan Dasbor Utama
-* ✅ Fitur X
-* ✅ Fitur Y
-
----
-
 ## 🤝 Berkontribusi
 
 Saat ini, kami belum membuka kontribusi dari pihak eksternal. Namun, Anda bisa memberikan saran atau melaporkan *bug* dengan membuat *issue* baru di repositori ini.
