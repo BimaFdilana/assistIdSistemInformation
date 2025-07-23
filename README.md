@@ -6,12 +6,22 @@
 
 Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan pengembangan lokal Anda.
 
+## 📲 Unduh Versi Terbaru
+
+Dapatkan versi stabil terbaru dari aplikasi Kedai Indonesia dengan mengklik tombol di bawah ini atau kunjungi halaman **Releases**.
+
+<p align="center">
+  <a href="https://github.com/BimaFdilana/flutter-assistid/releases">
+    <img src="https://img.shields.io/badge/Unduh_APK_Terbaru-4CAF50?style=for-the-badge&logo=android&logoColor=white" alt="Unduh APK Terbaru">
+  </a>
+</p>
+
 1.  **Clone Repositori**
 
     Buka terminal atau command prompt Anda dan jalankan perintah berikut. Jangan lupa ganti `[URL_GIT_ANDA]` dengan URL repositori Git Anda.
 
     ```sh
-    git clone [URL_GIT_ANDA]/assist_id_application.git
+    git clone https://github.com/BimaFdilana/flutter-assistid.git
     ```
 
 2.  **Masuk ke Direktori Proyek**
