@@ -2,10 +2,6 @@
 
 (Tambahkan deskripsi singkat tentang fungsi dan tujuan aplikasi Anda di sini. Jelaskan apa masalah yang dipecahkan oleh aplikasi ini dan untuk siapa aplikasi ini dibuat.)
 
-## ⚙️ Instalasi dan Konfigurasi
-
-Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan pengembangan lokal Anda.
-
 ## 📲 Unduh Versi Terbaru
 
 Dapatkan versi stabil terbaru dari aplikasi Kedai Indonesia dengan mengklik tombol di bawah ini atau kunjungi halaman **Releases**.
@@ -15,6 +11,10 @@ Dapatkan versi stabil terbaru dari aplikasi Kedai Indonesia dengan mengklik tomb
     <img src="https://img.shields.io/badge/Unduh_APK_Terbaru-4CAF50?style=for-the-badge&logo=android&logoColor=white" alt="Unduh APK Terbaru">
   </a>
 </p>
+
+## ⚙️ Instalasi dan Konfigurasi
+
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan pengembangan lokal Anda.
 
 1.  **Clone Repositori**
 
