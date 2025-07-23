@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
             _buildTechnologySection(),
             _buildSystemFitSection(),
             _buildMigrationCard(secondaryColor),
-            const SizedBox(height: 100), 
+            const SizedBox(height: 100),
           ],
         ),
       ),
@@ -103,12 +103,14 @@ class _HomePageState extends State<HomePage> {
                   style: TextStyle(fontSize: 8, fontWeight: FontWeight.bold),
                 ),
                 Text(
-                  'Kami membantu Anda mempercepat proses operasional dari pendaftaran pasien, pembayaran dan laporan otomatis...',
+                  'Kami membantu Anda mempercepat proses operasional dari pendaftaran pasien, pembayaran dan laporan otomatis.',
                   style: TextStyle(color: Colors.black87, fontSize: 8),
                 ),
                 const SizedBox(height: 10),
                 GestureDetector(
-                  onTap: () {},
+                  onTap: () {
+                    UrlLauncherService.openYouTubeLink(context: context);
+                  },
                   child: Text(
                     'Lihat Video Cara Kerja Assist.id',
                     style: TextStyle(
@@ -459,20 +461,25 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                     const SizedBox(height: 10),
-                    Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 10,
-                        vertical: 5,
-                      ),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(4),
-                      ),
-                      child: const Text(
-                        'Hubungi Kami',
-                        style: TextStyle(
-                          fontSize: 8,
-                          fontWeight: FontWeight.bold,
+                    GestureDetector(
+                      onTap: () {
+                        UrlLauncherService.openWhatsApp(context: context);
+                      },
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 10,
+                          vertical: 5,
+                        ),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(4),
+                        ),
+                        child: const Text(
+                          'Hubungi Kami',
+                          style: TextStyle(
+                            fontSize: 8,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ),

@@ -21,4 +21,18 @@ class UrlLauncherService {
       );
     }
   }
+
+  static Future<void> openYouTubeLink({required BuildContext context}) async {
+    // Link YouTube yang baru
+    const String youtubeUrl =
+        'https://www.youtube.com/watch?v=X7WaAJ6f-X0'; 
+    final uri = Uri.parse(youtubeUrl);
+    if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Gagal membuka YouTube. Pastikan aplikasi terpasang.'),
+        ),
+      );
+    }
+  }
 }
